@@ -38,7 +38,7 @@ const playUnlockSound = () => {
             <h1 className="main-title text-2xl font-bold mb-4">Unlock the locker</h1>
             <Locker correctCombination="SUAY" onUnlock={handleUnlock} />
             {unlocked && (
-                <a href='https://youtube.com........' className='link'>https://youtube.com........</a>
+                <a href='https://youtube.com/shorts/feDKM8rcmN4?feature=share' className='link'>https://youtube.com........</a>
             )}
         </div>
       );
