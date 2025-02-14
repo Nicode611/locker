@@ -40,8 +40,8 @@ const playUnlockSound = () => {
             {unlocked && (
                 <div className='answer-section'>
                     <p>Go check these links :</p>
-                    <a href='https://moodeng-mu.vercel.app/' className='link'>Moodeng escaped from the zoo !</a>
-                    <a href='https://youtu.be/t5vghV3CQbA' className='link'>The story of Moodeng</a>
+                    <a href='https://moodeng-mu.vercel.app/' target="_blank" rel="noopener noreferrer" className='link'>Moodeng escaped from the zoo !</a>
+                    <a href='https://youtu.be/t5vghV3CQbA' target="_blank" rel="noopener noreferrer" className='link'>The story of Moodeng</a>
                 </div>
             )}
         </div>
