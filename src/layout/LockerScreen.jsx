@@ -38,7 +38,11 @@ const playUnlockSound = () => {
             <h1 className="main-title text-2xl font-bold mb-4">Unlock the locker</h1>
             <Locker correctCombination="SUAY" onUnlock={handleUnlock} />
             {unlocked && (
-                <a href='https://youtube.com/shorts/feDKM8rcmN4?feature=share' className='link'>The story of Moodeng</a>
+                <div className='answer-section'>
+                    <p>Go check these links :</p>
+                    <a href='https://moodeng-mu.vercel.app/' className='link'>Moodeng escaped from the zoo !</a>
+                    <a href='https://youtu.be/t5vghV3CQbA' className='link'>The story of Moodeng</a>
+                </div>
             )}
         </div>
       );
